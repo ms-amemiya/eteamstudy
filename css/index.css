@@ -14,7 +14,7 @@
 }
 #main_visual .main_title {
   position: absolute;
-  top: 50vh;
+  top: 25vh;
   left: 25%;
 }
 #main_visual .main_title h2 {
@@ -22,6 +22,7 @@
 }
 #main_visual .main_title p {
   font-size: 96px;
+  font-weight: 700;
 }
 
 main {
@@ -61,7 +62,9 @@ main {
   overflow: hidden;
   gap: 1rem;
   font-size: 50rem;
-  width: 100%;
+  width: 200%;
+  position: absolute;
+  top: 89vh;
 }
 
 .marquee-inner {
@@ -77,7 +80,9 @@ main {
   }
 }
 .keyvisual {
-  position: relative;
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
 
 .keyvisual__scroll {
