@@ -41,6 +41,9 @@ main {
   padding: 64px;
   font-size: 19px;
 }
+.block_member figure {
+  width: 100%;
+}
 .block_member figure img {
   border-radius: 8px;
 }
