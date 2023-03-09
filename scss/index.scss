@@ -13,13 +13,14 @@
   }
   .main_title{
     position: absolute ;
-    top: 50vh ;
+    top: 25vh ;
     left: 25% ;
     h2{
       font-size: 24px ;
     }
     p{
       font-size: 96px ;
+      font-weight: 700;
     }
   }
 }
@@ -72,7 +73,9 @@ main{
   overflow: hidden;
   gap: 1rem;
   font-size: 50rem;
-  width: 100% ;
+  width: 200% ;
+  position: absolute ;
+  top: 89vh ;
 }
 .marquee-inner {
   animation: marquee 20s linear infinite;
@@ -84,8 +87,9 @@ main{
 
 // サークルアニメ
 .keyvisual{
-  position: relative;
-
+  position: absolute;
+  top: 30px ;
+  left: 30px ;
 }
 
 .keyvisual__scroll{
