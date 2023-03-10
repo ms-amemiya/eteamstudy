@@ -47,9 +47,11 @@ main{
       border-radius: 8px ;
     }
     figcaption{
-      margin: 8px 0 0 0;
+      margin: 16px 0 0 0;
       font-weight: 700;
+      font-size: 22px ;
       .label{
+        margin: 0 0 8px 0;
         font-size: 16px ;
         color: #989898 ;
       }
@@ -59,6 +61,16 @@ main{
     h3{
       font-size: 32px ;
       font-weight: 700 ;
+      margin: 0 0 8px 0;
+      letter-spacing: 0.08em;
+    }
+
+    p{
+      margin: 0 0 40px 0;
+    }
+
+    p:last-child{
+      margin: 0;
     }
   }
 }
