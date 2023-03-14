@@ -63,14 +63,16 @@ main{
       font-weight: 700 ;
       margin: 0 0 8px 0;
       letter-spacing: 0.08em;
+      background: url(../img/orange_pen_icon.png) no-repeat left top;
+      text-indent: 1.4em ;
     }
 
     p{
-      margin: 0 0 40px 0;
+      margin: 0 0 40px 2.6em;
     }
 
     p:last-child{
-      margin: 0;
+      margin: 0 0 0 2.6em;
     }
   }
 }
@@ -104,6 +106,11 @@ main{
   position: absolute;
   top: 30px ;
   left: 30px ;
+  .pen{
+    position: absolute ;
+    top: calc( 63% - 40px)  ;
+    left: calc( 64% - 40px)  ;
+  }
 }
 
 .keyvisual__scroll{

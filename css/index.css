@@ -62,12 +62,14 @@ main {
   font-weight: 700;
   margin: 0 0 8px 0;
   letter-spacing: 0.08em;
+  background: url(../img/orange_pen_icon.png) no-repeat left top;
+  text-indent: 1.4em;
 }
 .block_member .inform p {
-  margin: 0 0 40px 0;
+  margin: 0 0 40px 2.6em;
 }
 .block_member .inform p:last-child {
-  margin: 0;
+  margin: 0 0 0 2.6em;
 }
 
 .marquee {
@@ -98,6 +100,11 @@ main {
   top: 30px;
   left: 30px;
 }
+.keyvisual .pen {
+  position: absolute;
+  top: calc(63% - 40px);
+  left: calc(64% - 40px);
+}
 
 .keyvisual__scroll {
   width: 8vw;
@@ -119,4 +126,4 @@ main {
   100% {
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=index.css.map */
+}
